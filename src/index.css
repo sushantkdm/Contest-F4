@@ -1,0 +1,66 @@
+body{
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  font-family: 'Inter', sans-serif;
+  width: 100%;
+}
+h1{
+  font-weight: 200;
+ margin-bottom: 30px;
+}
+input{
+  background-color: black;
+  border: white 2px solid;
+  padding: 10px;
+  color: white;
+  width: 85%;
+}
+button{
+  width: 20%;
+  height: 30px;
+  margin-right: 11px;
+  background-color: rgb(218, 213, 213);
+  font-size: 20px;
+  font-weight: bolder;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px 2px gray;
+  cursor: pointer;
+}
+button:hover{
+  background-color: gray;
+  color: white;
+}
+.error{
+  color: red;
+  font-weight: bold;
+  margin-top: 20px ;
+  width: 100%;
+  padding-right: 10px;
+}
+.success{
+  color: green;
+  font-weight: bold;
+  margin-top: 20px ;
+  width: 100%;
+  padding-right: 10px;
+}
+.result{
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+ button {
+    font-size: 16px;
+  }
+
+
+
+
+
+
+
+
